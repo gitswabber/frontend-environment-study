@@ -1,0 +1,20 @@
+{
+  "name": "frontend-environment-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"This is build script!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitswabber/frontend-environment-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitswabber/frontend-environment-study/issues"
+  },
+  "homepage": "https://github.com/gitswabber/frontend-environment-study#readme"
+}
