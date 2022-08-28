@@ -15,6 +15,15 @@ so it can run server without additional setting.
 
 Package manager of Node.js.
 
+There are various ways of downloading libraries such as using CDN or installation directly.
+
+But that is not that efficient when it comes to handling version and some situation like network issue.
+
+That's why we use npm!
+
+#### npm vs yarn
+
+Yarn installs dependency packages in parallel, whereas NPM installs them sequentially.
 
 ## Webpack
 
