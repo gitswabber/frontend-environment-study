@@ -25,6 +25,14 @@ That's why we use npm!
 
 Yarn installs dependency packages in parallel, whereas NPM installs them sequentially.
 
+#### versioning
+
+Major.Minor.Patch
+
+tilde(~) : only updates version of patch
+
+caret(^) : updates version of minor and patch
+
 ## Webpack
 
 Module bundler.
