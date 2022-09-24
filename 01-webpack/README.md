@@ -5,9 +5,7 @@ This document explains webpack and the reason why we use it
 ## Before Webpack...
 
 See [example code](01-before-webpack)
-
 This way has a problem : **global scope pollution**
-
 Which means, sum() can be changed with other function or value if we re-define it.
 
 ## To solve global scope pollution > IIFE module
@@ -38,3 +36,9 @@ AMD + CommonJS
 
 For now this is a common way to use module system using babel and webpack.  
 [Using keyword `export` and `import`](03-modules)
+
+### Module support of browsers
+
+It is not sure to do support of module system for every browser.  
+For example, when we want to use module in chrome we can use `type="module"` in `<script>` syntax.  
+That's why we need to use Webpack to execute module in every browser.
