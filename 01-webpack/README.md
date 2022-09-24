@@ -20,3 +20,21 @@ It has independent scope in function and this means the function by IIFE way can
 
 There are a variety of module specs with above way like CommonJS, AMD and UMD.
 
+#### CommonJS
+
+Using keyword `exports` and `require()`
+
+#### AMD
+
+Asynchronous Module Definition  
+Basically is used in browser environment.
+
+#### UMD
+
+Universal Module Definition  
+AMD + CommonJS
+
+#### ES2015 Module system
+
+For now this is a common way to use module system using babel and webpack.  
+[Using keyword `export` and `import`](03-modules)

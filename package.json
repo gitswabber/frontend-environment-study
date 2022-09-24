@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gitswabber/frontend-environment-study/issues"
   },
-  "homepage": "https://github.com/gitswabber/frontend-environment-study#readme"
+  "homepage": "https://github.com/gitswabber/frontend-environment-study#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
